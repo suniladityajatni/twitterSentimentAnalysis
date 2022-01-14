@@ -9,6 +9,3 @@ headless = true\n\
 enableCORS=false\n\
 port = $PORT\n\
 " > ~/.streamlit/config.toml
-© 2022 GitHub, Inc.
-Terms
-Privac
