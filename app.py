@@ -6,7 +6,8 @@ import numpy as np
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 from nltk.stem.snowball import SnowballStemmer
-
+nltk.download("stopwords")
+nltk.download("wordnet")
 stop_words = set(stopwords.words('english'))
 
 def clean_text(text):
