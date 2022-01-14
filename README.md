@@ -16,3 +16,5 @@ The steps I followed for this project are:
 I was able to achive 83% accuracy on training set and 80%accuracy on test set.
 
 The whole approach can be found [here](https://www.kaggle.com/aditya01233/twitter)
+
+The working demo can be found [here](https://share.streamlit.io/suniladityajatni/twittersentimentanalysis/app.py)
