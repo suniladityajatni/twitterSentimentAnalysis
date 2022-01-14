@@ -1,3 +1,7 @@
+import nltk
+nltk.download("stopwords")
+nltk.download("wordnet")
+
 import streamlit as st
 import tensorflow as tf
 import string
@@ -5,9 +9,8 @@ import pickle
 import numpy as np
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
-from nltk.stem.snowball import SnowballStemmer
-nltk.download("stopwords")
-nltk.download("wordnet")
+# from nltk.stem.snowball import SnowballStemmer
+
 stop_words = set(stopwords.words('english'))
 
 def clean_text(text):
